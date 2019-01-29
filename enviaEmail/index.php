@@ -15,7 +15,10 @@ $mail->From = "correio@correio.com.br";
 $mail->FromName = "Nome da Empresa";
 $mail->CharSet = "UTF-8";
 
-$mail->AddAddress('seuEmail@seuEmail.com.br', "Nome");
+$emailUsuario = 'leonardo.santos@defesa.gov.br';
+$nomeUsuario = 'Leonardo Faria dos Santos';
+
+$mail->AddAddress($emailUsuario, $nomeUsuario);
 $mail->WordWrap = 50; //wrap seta o tamanhdo do texto por linha
 $mail->IsHTML(true); //enviar em HTML
 
