@@ -1,2 +1,2 @@
 # Envio-de-Email
-Script para teste de SMTP
+Script básico para teste de SMTP
