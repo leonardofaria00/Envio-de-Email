@@ -15,8 +15,8 @@ $mail->From = "correio@correio.com.br";
 $mail->FromName = "Nome da Empresa";
 $mail->CharSet = "UTF-8";
 
-$emailUsuario = 'leonardo.santos@defesa.gov.br';
-$nomeUsuario = 'Leonardo Faria dos Santos';
+$emailUsuario = 'seuEmail@seuEmail.com.br';
+$nomeUsuario = 'Fulano';
 
 $mail->AddAddress($emailUsuario, $nomeUsuario);
 $mail->WordWrap = 50; //wrap seta o tamanhdo do texto por linha
