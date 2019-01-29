@@ -29,8 +29,9 @@ $msg = "<html>
                 <div class='container-fluid col-md-auto'>
                     <div class='alert alert-secondary'>";
             $msg .= "<h2>Olá tudo bem?</h2>";
-            $msg .= "<h4>Se você recebeu esse email significa que as configurações do servidor ".$_SERVER['HTTP_HOST']." estão funcionando...<br>";
-            $msg .= " Dia " . date('d/m/Y') . " às " . date('H:i') . ", horário do servidor.</h4>";
+            $msg .= "<h4>Se você recebeu esse email significa que as configurações do servidor ".$_SERVER['HTTP_HOST']." estão funcionando...</h4>";
+            $msg .= "<h4>Enviado para: " . $emailUsuario . "</h4>";
+            $msg .= "<h4>Dia " . date('d/m/Y') . " às " . date('H:i') . ", horário do servidor.</h4>";
             $msg .= "</div>
                 </div>
             </body>
